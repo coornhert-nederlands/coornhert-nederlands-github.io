@@ -1,5 +1,10 @@
+.header {
+	font-size: 2.3em;
+	background-color: rgb(117, 160, 229);
+	color: #FFF;
+	font-family: Arial;
+}
 
-<<<<<<< HEAD
 body {
 	font-family: Arial;
 }
@@ -8,7 +13,6 @@ body {
 	margin: 0;
 }
 
-<<<<<<< HEAD
 nav > ul > li {
 	background-color: rgb(117, 160, 229);
 }
@@ -20,34 +24,10 @@ nav, nav > ul, nav > ul > li {
 
 nav > ul > li > a {
 	text-decoration: none;
-=======
-nav {
-	background-color: rgb(117, 160, 229);
-	margin: 0;
-	padding: 0;
-}
-
-nav > ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-}
-
-nav > ul > li {
-	margin: 0;
-	background-color: rgb(117, 160, 229);
-	padding: 0;
-}
-
-nav > ul > li > a {
-	margin: 0;
-	padding: 0;
->>>>>>> origin/master
 	color: #fff;
 }
 
 nav > ul > li > a:visited {
-<<<<<<< HEAD
 	text-decoration: none;
 	color: #fff;
 }
@@ -60,11 +40,3 @@ nav > ul {
 nav > ul > .col-1:hover {
 	background-color: #a5bde5;
 }
-=======
-	margin: 0;
-	padding: 0;
-	color: #fff;
-}
->>>>>>> origin/master
-=======
->>>>>>> origin/master
