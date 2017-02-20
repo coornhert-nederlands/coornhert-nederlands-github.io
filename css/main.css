@@ -22,7 +22,7 @@ nav, nav > ul, nav > ul > li {
 	margin: 0;
 }
 
-nav > ul > li > a {
+nav > ul > li > p {
 	text-decoration: none;
 	color: #fff;
 }
@@ -39,4 +39,28 @@ nav > ul {
 
 nav > ul > .col-1:hover {
 	background-color: #a5bde5;
+}
+
+nav > ul > li > .nav-content {
+	background-color: rgb(117, 160, 229);
+	top: 90px;
+	position: fixed;
+}
+
+nav > ul > li > .nav-content > .nav-sub > ul > li > a {
+	text-decoration: none;
+	color: #fff;
+}
+nav > ul > li > .nav-content > .nav-sub > ul > li > a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+nav > ul > li > .nav-content, nav > ul > li > .nav-content > .nav-sub, nav > ul > li > .nav-content > .nav-sub > ul, nav > ul > li > .nav-content > .nav-sub > ul > li {
+	padding: 0;
+	margin: 0;
+}
+
+nav > ul > li > .nav-content > .nav-sub > ul {
+	list-style-type: none;
 }
