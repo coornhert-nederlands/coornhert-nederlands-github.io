@@ -51,6 +51,12 @@ nav > ul > li > .nav-content > .nav-sub > ul > li > a {
 	text-decoration: none;
 	color: #fff;
 }
+
+nav > ul > li > .nav-content > .nav-sub > ul > li > p {
+	text-decoration: none;
+	color: #fff;
+}
+
 nav > ul > li > .nav-content > .nav-sub > ul > li > a:visited {
 	text-decoration: none;
 	color: #fff;

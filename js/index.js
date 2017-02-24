@@ -13,13 +13,11 @@ $(document).ready(function() {
 		$(button).children().find("ul").slideToggle();
 	});
 	
-	//============================================READ==============================================
-	// Check for the various File API support.
-	if (window.File && window.FileReader && window.FileList && window.Blob) {
-		// Great success! All the File APIs are supported.
-	} else {
-		alert('The File APIs are not fully supported in this browser.');
-	}
+	//============================================iFrame manipulation==============================================
+	var iframe = $("iframe");
+	var buttons = $(".redirect");
 	
-	
+	$(buttons).click(function() {
+		$(iframe).attr("src", $(this).attr("rel"));
+	});
 });
