@@ -19,5 +19,6 @@ $(document).ready(function() {
 	
 	$(buttons).click(function() {
 		$(iframe).attr("src", $(this).attr("rel"));
+		document.getElementById('iframe').contentWindow.location.reload();
 	});
 });
