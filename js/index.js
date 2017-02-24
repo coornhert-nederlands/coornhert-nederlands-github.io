@@ -15,10 +15,11 @@ $(document).ready(function() {
 	
 	//============================================iFrame manipulation==============================================
 	var iframe = $("iframe");
+	var content = $(".content");
 	var buttons = $(".redirect");
 	
 	$(buttons).click(function() {
-		$(iframe).attr("src", $(this).attr("rel"));
-		document.getElementById('iframe').contentWindow.location.reload();
+		$(content).empty();
+		$(content).append("<iframe src=\""+ $(this).attr("rel") +"\" width=\"100%\" height=\"500px\" id=\"iframe\"></iframe>")
 	});
 });
