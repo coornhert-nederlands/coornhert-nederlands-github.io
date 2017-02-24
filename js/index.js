@@ -20,6 +20,7 @@ $(document).ready(function() {
 	
 	$(buttons).click(function() {
 		$(content).empty();
-		$(content).append("<iframe src=\""+ $(this).attr("rel") +"\" width=\"100%\" height=\"500px\" id=\"iframe\"></iframe>")
+		$(content).append("<iframe src=\""+ $(this).attr("rel") +"\" width=\"100%\" height=\"500px\" id=\"iframe\"></iframe>");
+		document.getElementById('iframe').reload(true);
 	});
 });
