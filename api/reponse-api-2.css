@@ -70,3 +70,37 @@
 .background-light-gray {
 	background-color: #444;
 }
+
+@media only screen and (max-width: 500px) {
+	.size-small {
+		display: inline;
+	}
+	.size-medium, .size-large {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 500px) {
+	.size-medium {
+		display: inline;
+	}
+	.size-small, .size-large {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.size-large {
+		display: inline;
+	}
+	.size-medium, .size-small {
+		display: none;
+	}
+}
+
+.size-small, .size-medium, .size-large {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}

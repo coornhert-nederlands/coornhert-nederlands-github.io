@@ -1,0 +1,43 @@
+.header-small {
+	background-color: #3adde0;
+}
+
+
+.content-flex {
+	justify-content: flex-start;
+}
+
+.align-right {
+	display: flex;
+	float: right;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.white {
+	color: #fff;
+}
+
+.gray {
+	color: gray;
+}
+
+.nomargin {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Geneva, Arial;
+}
+
+.checkbox-mobile {
+	border: 2px solid #a5a5a5;
+	background-color: #d8d8d8;
+}
+
+.checkbox-mobile:hover {
+	background-color: #b7b7b7;
+}
