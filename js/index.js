@@ -33,6 +33,7 @@ $(document).ready(function() {
 	
 	$(".nav-button").click(function() {
 		var button = $(this).children().eq(0);
+		$("#checkmob").slideToggle();
 		
 		if(button.attr("data-embedtype") === "valid") {
 			srcDisplays(button.attr("data-info"), button.attr("data-embed"));
