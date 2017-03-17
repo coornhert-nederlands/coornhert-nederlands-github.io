@@ -128,6 +128,10 @@ body {
 }
 
 #panel-mob:hover ~ .hidden-mob {
-	display: block
+	display: block;
+}
+
+.hidden-mob:hover {
+	display: block;
 }
 
