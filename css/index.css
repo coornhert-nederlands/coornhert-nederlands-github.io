@@ -34,6 +34,11 @@ body {
 }
 
 .checkbox-mobile {
+	height: 40px;
+	margin: -2px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
 	border: 2px solid #a5a5a5;
 	background-color: #d8d8d8;
 }
@@ -41,3 +46,84 @@ body {
 .checkbox-mobile:hover {
 	background-color: #b7b7b7;
 }
+
+@media only screen and (max-width: 500px) {
+	.full {
+		height: 400px;
+	}
+	
+	.half {
+		height: 200px;
+	}
+	
+	.none {
+		height: 0px;
+	}
+}
+
+#checkmob {
+	margin-top: 13px;
+}
+
+.panel-change-mob {
+	background-color: #333;
+	height: 40px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+}
+
+.panel-change-mob > .nav-content {
+	max-height: 0;
+}
+
+#nav-mob {
+	background-color: #333;
+}
+
+#nav_wrapper-mob {
+	margin: 0 auto;
+}
+#nav_wrapper-mob > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#nav_wrapper-mob ul li {
+	margin: 0;
+	padding: 0;
+}
+
+#nav_wrapper-mob ul li p {
+	margin: 0;
+	padding: 0;
+	height: 40px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+}
+
+#mixed-active-content-warning {
+	background-color: #3adde0;
+}
+
+.hidden-mob {
+	padding: 20px;
+	display: none;
+	float: left;
+	position: absolute;
+	background-color: #333;
+	list-style-type: none;
+}
+
+.hidden-mob p {
+	display: flex;
+	margin-right: 15px;
+	width: 100%;
+}
+
+#panel-mob:hover ~ .hidden-mob {
+	display: block
+}
+

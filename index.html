@@ -4,16 +4,30 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="api/reponse-api-2.css">
 		<link rel="stylesheet" href="css/index.css">
+		<script src="api/jquery.js"></script>
 	</head>
 	<body class="nomargin">
 		<!--MOBILE VERSION-->
 		<div class="size-small">
 			<div class="row"><iframe frameBorder="0" src="html/header-small.html" class="col-12" height="100px"></iframe></div>
-			<div class="row">
-				<div class="col-12 checkbox-mobile">
-					<input type="checkbox">Embed site in browser
+			<div class="row options-mob">
+				<div class="col-5 nomargin" id="nav-mob">
+					<div id="nav_wrapper-mob">
+						<ul>
+							<li><p id="panel-mob" class="white nomargin" style="font-size: 1.2em">Links</p>
+								<ul class="nomargin hidden-mob">
+									<li class="nav-button"><p class="white" data-info="html/cambiumned.html" data-embed="http://www.cambiumned.nl/" data-embedtype="valid">Cambiumned</p></li>
+									<li class="nav-button"><p class="white" data-info="html/cambiumned.html" data-embed="http://www.cambiumned.nl/" data-embedtype="invalid">Cambiumned</p></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-7 checkbox-mobile nomargin">
+					<input type="checkbox" id="checkmob">Embed site in browser
 				</div>
 			</div>
+			
 		</div>
 		
 		<!--TABLET VERSION-->
@@ -26,7 +40,8 @@
 			pc
 		</div>
 		
-		
+		<div class="row"><iframe frameBorder="0" src="http://www.cambiumned.nl/" class="infoframe col-12 full" id="info"></iframe></div>
+		<div class="row"><iframe frameBorder="0" src="http://biologiepagina.nl/" class="infoframe col-12 none" id="embed"></iframe></div>
 		<script src="js/index.js"></script>
 	</body>
 </html>
