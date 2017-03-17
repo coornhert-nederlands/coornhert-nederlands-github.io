@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	
 	function toggleCheckmob() {
 		var chkbox = $("#checkmob");
 		chkbox.prop("checked", !chkbox.prop("checked"));
